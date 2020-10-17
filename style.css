@@ -1,21 +1,47 @@
-
-.dropdown ul{
-    list-style: square;
-   
-    
+*{
+    padding: 0;
+    margin: 0;
 }
 
+
+
+.dropdown ul{
+    list-style: none;
+    margin-top: 2%;
+}
 .dropdown ul li{
-    float: center;
+    width: 100px;
+    border: 1px;
+  
+    line-height: 30px;
+    
+    float: left;
     position: relative;
- }
- .dropdown ul :hover{
-     background-color: aqua;
- }
- .dropdown ul ul{
-     display: none;
- }
- .dropdown ul li:hover > ul {
-     display: block;
- }
+    text-align: center;
+    
+    
+
+}
+.dropdown ul{
+  position: absolute;
+   
+}
+
+
+
+.dropdown ul :hover{
+    background: rgb(31, 44, 231);
+}
+.dropdown ul ul{
+    display: none;
+    
+}
+.dropdown ul li:hover > ul {
+ display: block;
+}
+.dropdown ul li ul{
+    position: relative;
+    margin-left: 20px;
+    display: none;
+}
 
