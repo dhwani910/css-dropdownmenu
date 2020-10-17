@@ -1,0 +1,21 @@
+
+.dropdown ul{
+    list-style: square;
+   
+    
+}
+
+.dropdown ul li{
+    float: center;
+    position: relative;
+ }
+ .dropdown ul :hover{
+     background-color: aqua;
+ }
+ .dropdown ul ul{
+     display: none;
+ }
+ .dropdown ul li:hover > ul {
+     display: block;
+ }
+
